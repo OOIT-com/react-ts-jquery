@@ -30,6 +30,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build  # The directory containing your built React app
+          local-dir: build/  # The directory containing your built React app
           remote-dir: /www/1234.ch/react-ts-jquery  # Adjust to your desired remote directory
           clean-remote: true  # Optionally clean the remote directory before deployment
